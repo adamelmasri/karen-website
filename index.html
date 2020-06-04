@@ -1,19 +1,54 @@
 <!DOCTYPE html>
+<!-- HTML is the main parent tag-->
 <html>
+    <!--head is metadata tag that also includes other resources-->
     <head>
         <title>My first webpage</title>
+        <!--Link tags are for loading additional resource
+        thee browser scans looking for link, src, and script tags to load them -->
         <link rel="stylesheet" href="style.css">
     </head>
 
+    <!--body contains all of our visible content (our viewport)-->
+    <!--this tag can contain other tags and is semantic-->
+    <!--semantic tags are purely for organization and accessibility-->
     <body>
-        <h1>
-            This is a header for your information <span id="person-name"></span>
-        </h1>
-        <p>
-            This is a paragraph
-        </p>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Client-server-model.svg/2880px-Client-server-model.svg.png">
+        <header>
+            <nav></nav>
+        </header>
+        <main>
+            <article>
+                <!--Block-level elements take up all the space - h1, p, etc. -->
+                <h1>
+                    This is a header for your information <span id="person-name"></span>
+                </h1>
+                <p>
+                    This is a &nbsp;&nbsp;&nbsp; paragraph
+                </p>
+                <p> Another paragraph</p>
+
+                <p> Heree is a paragraph with in-line content
+                    <!--in-line elements take up minimal space and caan
+                    go inside of block-leevel elements - span-->
+                    <span style="font-size:40px">
+                        Addditional content
+                    </span>
+
+                </p>
+                <!--self-closing tag that takes no content - imgs, videos, etc.
+                    these tags often contain attributes - extra information
+                    that define additioonal behaviours or aspects of our tags
+                -->
+                <a target="_blank" href="https://www.google.ca">Click here for Google</a>
+                
+                <img alt="A picture" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Client-server-model.svg/2880px-Client-server-model.svg.png">
+                
+            </article>
+        </main>
+        <footer></footer>
         <script src="script.js"></script>
+
     </body>
+       
 
 </html>
