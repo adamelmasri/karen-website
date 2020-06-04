@@ -1,5 +1,15 @@
+
+/* the coontent ooutside the brackets is the hthml we want to target
+this css is targetting eelements as a whole
+*/
 h1 {
+    /* these are properties taht represent the aesthetic of our website
+    theree are a lot of them and they can't all be usedd for different elements*/
     color: red;
+    font-size: 30px;
+    margin: 50px 100px 100px 10px;
+    padding: 50px;
+    border: 3px solid purple;
 }
 
 p {
@@ -8,4 +18,24 @@ p {
 
 body{
     background-color: aliceblue;
+}
+
+
+/* we can target using CSS classes that we can apply freely
+on html elemeents of our choosing
+thhis is the most common way of creating css styling
+*/
+.table-header{
+    font-size: 30px;
+    background-color: black;
+    color:white;
+}
+
+
+/* this is id based targeting - it's less common and less recommended */
+#first-header{
+    font-size: 100px;
+    background-color: purple;
+    color:white;
+
 }

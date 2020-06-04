@@ -19,7 +19,7 @@
         <main>
             <article>
                 <!--Block-level elements take up all the space - h1, p, etc. -->
-                <h1>
+                <h1 id="first-header">
                     This is a header for your information <span id="person-name"></span>
                 </h1>
                 <p>
@@ -44,6 +44,42 @@
                 <img alt="A picture" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Client-server-model.svg/2880px-Client-server-model.svg.png">
                 
             </article>
+
+            <h1> This is our table</h1>
+            <table>
+                <tr class="table-header">
+                    <!-- the headers in our table otherwise knoown as
+                    the names of the columns-->
+                    <th>
+                        Animal name
+                    </th>
+                    <th>
+                        Animal size
+                    </th>
+                </tr>
+                <tbody>
+                    <!--each table row which contains data-->
+                    <tr>
+                        <!-- data for each column in our row-->
+                        <td>
+                            Giraffe
+                        </td>
+                        <td>
+                            Very big
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Mouse
+                        </td>
+                        <td>
+                            Very small
+                        </td>
+                    </tr>
+
+                </tbody>
+                
+            </table>
         </main>
         <footer></footer>
         <script src="script.js"></script>
