@@ -1,6 +1,7 @@
 
 /* the coontent ooutside the brackets is the hthml we want to target
 this css is targetting eelements as a whole
+these are called selectors
 */
 h1 {
     /* these are properties taht represent the aesthetic of our website
@@ -18,6 +19,14 @@ p {
 
 body{
     background-color: aliceblue;
+}
+
+article{
+    background-image: url("https://thumbs-prod.si-cdn.com/d4e3zqOM5KUq8m0m-AFVxuqa5ZM=/800x600/filters:no_upscale():focal(554x699:555x700)/https://public-media.si-cdn.com/filer/a4/04/a404c799-7118-459a-8de4-89e4a44b124f/img_1317.jpg");
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: space;
+
 }
 
 
